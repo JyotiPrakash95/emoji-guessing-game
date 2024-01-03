@@ -95,6 +95,7 @@ nextQuestion.addEventListener("click", () => {
   //   second = 10; // Reset the timer to 10 seconds (or your desired initial time)
   //   score = 0; // Reset the score to 0
   nextEmoji();
+    getInput.value = "";
     timerClock.classList.remove("red-text");
 
   // displayEmoji(); // Display the first emoji
